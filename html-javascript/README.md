@@ -1,6 +1,7 @@
-# html-javascript training
+# html-javascript exercise 
 **「HTML+Javascriptによるプログラミング入門 第2版」の演習**
 
+## html
 <details>
 <summary>Chapter-03</summary>
 
@@ -37,3 +38,46 @@
 
 ### チェッカー
 - Pycharmにて確認
+
+</details>
+<details>
+<summary>Chapter-04</summary>
+</details>
+
+## javascript
+<details>
+<summary>Chapter-05</summary>
+</details>
+<details>
+<summary>Chapter-06</summary>
+</details>
+<details>
+<summary>Chapter-07</summary>
+</details>
+<details>
+<summary>Chapter-08</summary>
+</details>
+<details>
+<summary>Chapter-09</summary>
+</details>
+<details>
+<summary>Chapter-10</summary>
+</details>
+<details>
+<summary>Chapter-11</summary>
+</details>
+<details>
+<summary>Chapter-12</summary>
+</details>
+<details>
+<summary>Chapter-13</summary>
+</details>
+<details>
+<summary>Chapter-14</summary>
+</details>
+<details>
+<summary>Chapter-15</summary>
+</details>
+<details>
+<summary>Chapter-16</summary>
+</details>
