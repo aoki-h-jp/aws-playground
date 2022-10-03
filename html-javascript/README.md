@@ -72,7 +72,6 @@
 ## javascript
 <details>
 <summary>Chapter-05</summary>
-</details>
 
 ### JavaScriptの動作確認
 
@@ -80,8 +79,31 @@
 - ex05-02.html 簡単なJavaScriptの確認
 - ex05-03.html alertの実装
 
+</details>
 <details>
 <summary>Chapter-06</summary>
+
+### 変数
+
+- ex06-01.html 変数定義 
+- ex06-02.html 存在しない変数がある時の挙動
+- ex06-03.html 変数の内容を表示
+
+### 配列
+
+- ex06-04.html 配列の宣言
+- ex06-05.html 配列の操作
+- ex06-06.html 配列の要素数
+- ex06-07.html 配列に関する練習問題
+- ex06-08.html 配列に関する練習問題 (2)
+
+### 関数
+
+- ex06-09.html 関数の呼び出し
+- ex06-10.html 関数の呼び出しの練習問題
+- ex06-11.html 戻り値の受け取り
+- ex06-12.html 引数で受け取る
+
 </details>
 <details>
 <summary>Chapter-07</summary>
