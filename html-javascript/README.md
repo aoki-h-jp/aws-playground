@@ -1,5 +1,5 @@
 # html-javascript exercise 
-**「HTML+Javascriptによるプログラミング入門 第2版」の演習**
+**「HTML+JavaScriptによるプログラミング入門 第2版」の演習**
 
 ## html
 <details>
@@ -73,6 +73,13 @@
 <details>
 <summary>Chapter-05</summary>
 </details>
+
+### JavaScriptの動作確認
+
+- ex05-01.html JavaScriptの有効化
+- ex05-02.html 簡単なJavaScriptの確認
+- ex05-03.html alertの実装
+
 <details>
 <summary>Chapter-06</summary>
 </details>
