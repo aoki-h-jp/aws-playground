@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>caption-side, border-collapse</title>
+  <style>
+    #capt {caption-side: top;}
+    #capb {caption-side: bottom;}
+    #col {border-collapse: collapse;}
+    #sep {border-collapse: separate;}
+  </style>
+</head>
+<body>
+<h3>caption-side: top; collapse</h3>
+<table id="col" border=1>
+  <caption id="capt">表のタイトルは上</caption>
+  <tr>
+    <td>
+    項目1
+    </td>
+    <td>
+      項目2
+    </td>
+    <td>
+      項目3
+    </td>
+  </tr>
+</table>
+<h3>caption-side: bottom; separate</h3>
+<table id="sep" border=1>
+  <caption id="capb">表のタイトルは下</caption>
+  <tr>
+    <td>
+      項目1
+    </td>
+    <td>
+      項目2
+    </td>
+    <td>
+      項目3
+    </td>
+  </tr>
+</table>
+</body>
+</html>
