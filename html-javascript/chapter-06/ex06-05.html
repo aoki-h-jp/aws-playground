@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>配列を操作する</title>
+</head>
+<body>
+<h1>配列を操作する</h1>
+  <script>
+  var sweets = ['プリン', 'タルト', 'フランボワーズ'];
+<!--  document.writeは現在非推奨-->
+  document.write(sweets[0]);
+  document.write(sweets[1]);
+  document.write(sweets[2]);
+  document.write("<p>配列要素の更新や追加を行う</p>");
+<!--  配列の操作-->
+  sweets[1] = 'マカロン';
+  sweets[49] = '進化形のスイーツ';
+  document.write(sweets[0]);
+  document.write(sweets[1]);
+  document.write(sweets[2]);
+  document.write("50番目は" + sweets[49]);
+  </script>
+</body>
+</html>
