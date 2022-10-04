@@ -172,6 +172,12 @@
 </details>
 <details>
 <summary>Chapter-11</summary>
+
+### ソートのプログラム
+
+- ex11-01.html 配列の要素を昇順にソートするプログラム
+- ex11-02.html その動作確認
+
 </details>
 <details>
 <summary>Chapter-12</summary>
