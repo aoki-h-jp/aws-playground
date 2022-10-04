@@ -118,6 +118,36 @@
 </details>
 <details>
 <summary>Chapter-08</summary>
+
+### 判断
+
+- ex08-01.html if文
+- ex08-02.html if...else文
+- ex08-03.html if...else if文
+- ex08-04.html if...else if...else文
+- ex08-05.html if文の練習問題
+- ex08-06.html if文の練習問題 (2)
+- ex08-07.html if文の練習問題 (3)
+- ex08-08.html 条件演算子を使った分岐処理
+- ex08-09.html switch文 
+- ex08-10.html breakを外した時のswitch文
+
+### 繰り返し
+
+- ex08-11.html for文
+- ex08-12.html for文 (1/10を10回足す)
+- ex08-13.html while文
+- ex08-14.html while文 (2)
+- ex08-15.html do...while...文
+
+### エラー処理
+
+- ex08-16.html breakとcontinue
+- ex08-17.html breakとcontinue (2)
+- ex08-18.html try...catch文
+- ex08-19.html try...catch文 (2)
+- ex08-20.html throw文
+
 </details>
 <details>
 <summary>Chapter-09</summary>
