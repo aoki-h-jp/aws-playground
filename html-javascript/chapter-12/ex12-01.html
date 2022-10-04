@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workbench</title>
+</head>
+<body>
+<script>
+  function showMsg() {
+  var msg = prompt("メッセージをどうぞ", "");
+  document.getElementById("msgout").innerHTML = msg;
+  }
+</script>
+<p>getElementById()を使ってみる</p>
+<button type="button" onclick="showMsg()">メッセージを表示する</button>
+<p id="msgout">この部分の内容を書き換える</p>
+</body>
+</html>

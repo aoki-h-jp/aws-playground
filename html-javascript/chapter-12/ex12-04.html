@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WorkBench</title>
+</head>
+<body>
+<script>
+  function makeObj() {
+    var bodyShape = {height: 170.5, weight:62.5, age:18};
+    var pname;
+<!--bodyShapeのkeyをiterateする(pnameにkeyが入る)-->
+<!--メソッド内の変数のscopeはpythonと同じ考え方-->
+    for (pname in bodyShape) {
+      alert(pname);
+      alert(bodyShape[pname]);
+    }
+  }
+</script>
+<p>オブジェクトを定義してプロパティを表示する</p>
+<button type="button" onclick="makeObj()">ボタンを押してください</button>
+</body>
+</html>
