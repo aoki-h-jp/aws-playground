@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sumArray</title>
+</head>
+<body>
+<script>
+<!--配列の総和を求めるメソッド-->
+  exampleArray = [1, 2, 3, 4];
+  var sum = function sumArray(arrayData) {
+    if (arrayData.isArray == false) return [-1, undefined];
+    return [0, arrayData.reduce(function(a, b) {return a + b;})]
+  }
+  function executeSum() {
+    document.write(sum(exampleArray)[1]);
+  }
+</script>
+<p>配列の総和を求める</p>
+<button onclick="executeSum()">実行する</button>
+</body>
+</html>

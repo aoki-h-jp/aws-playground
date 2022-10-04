@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>findMaximum</title>
+</head>
+<body>
+<script>
+  testArray1 = [2, 5, 7, 3, 15, 4, 1]
+  testArray2 = [22, 3, 5, 8, 12]
+  testArray3 = [1.2, 6.1, 5.3, 6.2]
+  testArray4 = [2, 5, 7, 15, 15, 4, 1]
+  testArray5 = 1
+  testArray6 = []
+
+  const aryMax = function (a, b) {return Math.max(a, b);}
+<!--  最大値を見つけるメソッド-->
+<!--参考: https://qiita.com/ndj/items/82e9c5a4518fe16e539f-->
+  function findMaximumIndex (arrayData) {
+    if (arrayData.length === undefined || arrayData.length < 1) {
+      document.write(-1);
+      return -1;
+    }
+    let maximum = arrayData.reduce(aryMax)
+    let maximumIndex = arrayData.indexOf(maximum)
+    document.write(maximumIndex);
+    return maximumIndex;
+  }
+</script>
+<p>最大値を見つけます</p>
+<!--vimでqaVyp&lt;C-a&gt;&lt;C-a&gt;q 4@a-->
+<button type="button" onclick="findMaximumIndex(testArray1)">テスト1を実行する</button>
+<button type="button" onclick="findMaximumIndex(testArray2)">テスト2を実行する</button>
+<button type="button" onclick="findMaximumIndex(testArray3)">テスト3を実行する</button>
+<button type="button" onclick="findMaximumIndex(testArray4)">テスト4を実行する</button>
+<button type="button" onclick="findMaximumIndex(testArray5)">テスト5を実行する</button>
+<button type="button" onclick="findMaximumIndex(testArray6)">テスト6を実行する</button>
+</body>
+</html>
