@@ -107,6 +107,14 @@
 </details>
 <details>
 <summary>Chapter-07</summary>
+
+### 演算子
+
+- ex07-01.html 算術演算子の働き
+- ex07-02.html 代入演算子の働き
+- ex07-03.html 比較演算子の働き
+- ex07-04.html 論理演算子の働き
+
 </details>
 <details>
 <summary>Chapter-08</summary>
