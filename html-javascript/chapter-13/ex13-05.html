@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WorkBench</title>
+  <script>
+    function func1() {
+      document.getElementById("p1").innerHTML = "マウスオーバー";
+    }
+    function func2() {
+      document.getElementById("p1").innerHTML = "クリック";
+    }
+  </script>
+</head>
+<body>
+<p id="p1" onmouseover="func1()" onclick="func2()">マウスイベントが表示されます。</p>
+</body>
+</html>

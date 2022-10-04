@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WorkBench</title>
+</head>
+<body>
+<!--ここの中身がgetElementById().innerHTML-->
+<p id="p1">書き換え前です。</p>
+<script>
+  function chgStr() {
+    document.getElementById("p1").innerHTML = "書き換えました。";
+  }
+  function addStr() {
+    document.getElementById("p1").innerHTML += "書き加えました。";
+  }
+</script>
+<button type="button" onclick="chgStr()">書き換え</button>
+<button type="button" onclick="addStr()">追加</button>
+</body>
+</html>
