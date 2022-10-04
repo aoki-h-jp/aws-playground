@@ -210,6 +210,13 @@
 </details>
 <details>
 <summary>Chapter-14</summary>
+
+### canvas
+
+- ex14-01.html 折れ線の描画
+- ex14-02.html はみ出す図形の描画
+- ex14-03.html 折れ線の描画 (2)
+
 </details>
 <details>
 <summary>Chapter-15</summary>
