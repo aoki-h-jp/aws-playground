@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>findMaximum</title>
+</head>
+<body>
+<script>
+  exampleArray = [10, 20, 30]
+  const aryMax = function (a, b) {return Math.max(a, b);}
+<!--  最大値を見つけるメソッド-->
+<!--参考: https://qiita.com/ndj/items/82e9c5a4518fe16e539f-->
+  function findMaximum (arrayData) {
+    if (arrayData.length === undefined || arrayData.length < 1) throw "メソッドの引数は配列です。"
+    let maximum = arrayData.reduce(aryMax)
+    document.write(maximum);
+    return maximum
+  }
+</script>
+<p>最大値を見つけます</p>
+<button type="button" onclick="findMaximum(exampleArray)">実行する</button>
+</body>
+</html>
