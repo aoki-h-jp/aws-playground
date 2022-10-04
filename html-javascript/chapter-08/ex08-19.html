@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WorkBench</title>
+</head>
+<body>
+<script>
+  function errCheck() {
+    try {
+      aler(document.getElementById("msg").value);
+    } catch (err) {
+      document.write(err.name + " :" + err.message);
+    }
+  }
+</script>
+<p id="msgout">errorの確認</p>
+<button type="button" onclick="errCheck()">ボタンを押してください</button>
+<!--ReferenceError :aler is not definedが発生する-->
+</body>
+</html>

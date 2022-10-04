@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WorkBench</title>
+</head>
+<body>
+<script>
+  function arrayOpr() {
+  var data = new Array(1,3,5,0,7,-1,9);
+  var i;
+
+  for (i=0; i<data.length; i++) {
+    if (data[i] == 0) continue;
+    if (data[i] < 0) break;
+    document.getElementById("msgout").innerHTML += " + data[ " + i + "] = " + data[i] + "<br>";
+  }
+  document.getElementById("msgout").innerHTML += "繰り返し終了後:i" + i;
+</script>
+<p>continueやbreakの確認</p>
+<button type="button" onclick="arrayOpr()">ボタンを押してください</button>
+<p id="msgout"></p>
+</body>
+</html>

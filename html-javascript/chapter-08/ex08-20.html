@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WorkBench</title>
+</head>
+<body>
+<script>
+  function myAge (age) {
+    try {
+      if (age < 6) throw "まだ小学校には入れません。";
+      else if (age > 12) throw "もう卒業しました。";
+      else throw "小学生です。"
+    } catch (err) {
+      document.write(err);
+    }
+  }
+</script>
+<p id="msgout">errorの確認</p>
+<button type="button" onclick="myAge(5)">私は5歳です</button>
+<button type="button" onclick="myAge(8)">私は8歳です</button>
+<button type="button" onclick="myAge(13)">私は13歳です</button>
+</body>
+</html>

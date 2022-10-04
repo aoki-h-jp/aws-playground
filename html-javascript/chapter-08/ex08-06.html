@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workbench</title>
+  <script>
+  function isEven(num) {
+    if (num % 2 == 0) {
+      return true
+    } else {
+      return false
+    }
+  }
+  function inputNum() {
+    var num = prompt("調べる数値は？", "0");
+    var res = isEven(num);
+    document.getElementById("msgout").innerHTML = "判定結果は" + res + "です。"
+  }
+  </script>
+</head>
+<body>
+<p>偶数判定をします。</p>
+<button type="button" onclick="inputNum()">数を入力する</button>
+<p id="msgout"></p>
+</body>
+</html>

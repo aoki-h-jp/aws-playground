@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WorkBench</title>
+  <script>
+<!--    n1からn2までの等差1の等差数列の和を求める-->
+    function sumUp(n1, n2) {
+      var sum = 0, i;
+      for (i=n1;i<=n2;i++)
+        sum += i;
+      return sum
+    }
+  </script>
+</head>
+<body>
+<p>1から100までの和を計算する</p>
+<button type="button" onclick="alert(sumUp(1, 100))">結果を表示する</button>
+</body>
+</html>

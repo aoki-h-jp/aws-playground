@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workbench</title>
+  <script>
+  function show() {
+    var kanji, num = prompt("数字1, 2, 3をどうぞ", "");
+    switch (+num) {
+    case 1: kanji = '壱'; break;
+<!--    ここでbreakしないと2を入力した時num=3まで処理がいく-->
+    case 2: kanji = '弐';
+    case 3: kanji = '参'; break;
+    default: kanji = '?'; break;
+    }
+    document.getElementById("msgout").innerHTML = "判定結果は" + kanji + "です。"
+  }
+  </script>
+</head>
+<body>
+<p>壱から参までの漢数字を表示します。</p>
+<button type="button" onclick="show()">入力する</button>
+<p id="msgout"></p>
+</body>
+</html>

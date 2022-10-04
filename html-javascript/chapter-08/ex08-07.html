@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>if文の働き</title>
+</head>
+<body>
+<script>
+  var score = 90;
+<!--  score = 100とすることでscoreに100が入るので全ての判定結果が秀になる-->
+<!--  本来はscore == 100とすることが意図した動作-->
+  if (score = 100) {
+    alert('評価は秀です');
+  } else if (score >= 80) {
+    alert('評価は優です');
+  } else if (score >= 70) {
+    alert('評価は良です');
+  } else if (score >= 60) {
+    alert('評価は可です');
+  } else {
+    alert('評価は不可です');
+  }
+</script>
+</body>
+</html>

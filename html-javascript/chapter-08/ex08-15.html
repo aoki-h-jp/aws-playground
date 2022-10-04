@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>サイコロゲーム</title>
+</head>
+<body>
+<script>
+<!--  本の通りだと意図した通りに動作しない-->
+  function guess() {
+    var hit = Math.floor(Math.random() * 6) + 1;
+    var i, num, cnt = 0;
+    var txtout = document.getElementById("msgout");
+
+    do {
+      num = prompt("出た目は何？", "");
+      if (num < 1 || num > 6) continue;
+      txtout.innerHTML += "<br>" + ++cnt + "回目:";
+      for (i = 0; i < num; i++)
+        txtout.innerHTML += "●";
+    } while (num != hit);
+
+    txtout.innerHTML += "...当たり!<br>";
+  }
+</script>
+<p>サイコロを振ります。その数字を当ててください</p>
+<button type="button" onclick="guess()">ゲームを始める</button>
+<p id="msgout"></p>
+</body>
+</html>

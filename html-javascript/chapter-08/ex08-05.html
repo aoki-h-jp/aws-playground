@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workbench</title>
+  <script>
+  function discount() {
+    var ninzu = prompt("人数は？", "1");
+    if (ninzu >= 300) {
+      alert('3割引');
+    } else if (ninzu >= 100) {
+      alert('2割引');
+    } else if (ninzu >= 30) {
+      alert('1割引');
+    } else {
+      alert('割引なし');
+    }
+  }
+  </script>
+</head>
+<body>
+<p>団体割引率を調べます。</p>
+<button type="button" onclick="discount()">人数を入力する</button>
+</body>
+</html>
