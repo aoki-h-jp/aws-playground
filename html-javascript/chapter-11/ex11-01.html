@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sortArray</title>
+</head>
+<body>
+<script>
+  testArray1 = [2, 5, 7, 0]
+  testArray2 = [2, 2, 7, 0]
+  testArray3 = [2]
+  testArray4 = 2
+  testArray5 = []
+
+  var sortArray = function(arrayData) {
+    if (arrayData.length == undefined) return -1;
+    if (arrayData.length == 0) return -2;
+    return arrayData.sort(function(a, b) {return a - b;});
+  }
+  function executeSort(arrayData) {
+    alert(sortArray(arrayData));
+  }
+</script>
+<p>昇順にソートします</p>
+<button onclick="executeSort(testArray1)">テスト1を実行する</button>
+<button onclick="executeSort(testArray2)">テスト2を実行する</button>
+<button onclick="executeSort(testArray3)">テスト3を実行する</button>
+<button onclick="executeSort(testArray4)">テスト4を実行する</button>
+<button onclick="executeSort(testArray5)">テスト5を実行する</button>
+</body>
+</html>

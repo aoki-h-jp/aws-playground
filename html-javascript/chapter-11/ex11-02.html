@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sortArray</title>
+</head>
+<body>
+<script>
+  exampleArray = [2, 5, 7, 0]
+  var sortArray = function(arrayData) {
+    if (arrayData.isArray == false) return undefined;
+    return arrayData.sort(function(a, b) {return a - b;});
+  }
+  function executeSort() {
+    alert(sortArray(exampleArray));
+  }
+</script>
+<p>昇順にソートします</p>
+<button onclick="executeSort()">実行する</button>
+</body>
+</html>
