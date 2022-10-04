@@ -151,6 +151,11 @@
 </details>
 <details>
 <summary>Chapter-09</summary>
+
+### 最大値のプログラム
+
+- ex09-01.html 最大値を見つけるプログラム
+
 </details>
 <details>
 <summary>Chapter-10</summary>
