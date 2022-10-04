@@ -159,6 +159,16 @@
 </details>
 <details>
 <summary>Chapter-10</summary>
+
+### テスト
+
+- ex10-01.html テスト用プログラムの実行
+
+### 配列の全要素の値の合計を求めるプログラム
+
+- ex10-02.html 配列の全要素の値の合計を求めるプログラム
+- ex10-03.html 配列の全要素の値の平均値を求めるプログラム
+
 </details>
 <details>
 <summary>Chapter-11</summary>
