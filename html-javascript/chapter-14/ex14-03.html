@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WorkBench</title>
+</head>
+<body>
+<canvas id="CanvasId" width="600" height="400" style="background-color:yellow"></canvas>
+<script>
+  var cvs = document.getElementById("CanvasId");
+  var ctx = cvs.getContext("2d");
+
+  ctx.moveTo(150, 300);
+  ctx.lineTo(300, 100);
+  ctx.lineTo(500, 300);
+  ctx.lineTo(400, 200);
+  ctx.lineTo(20, 50);
+  ctx.stroke();
+
+  ctx.moveTo(10, 30);
+  ctx.lineTo(289, 123);
+  ctx.lineTo(90, 322);
+  ctx.lineTo(40, 220);
+  ctx.lineTo(200, 50);
+  ctx.stroke();
+</script>
+</body>
+</html>
