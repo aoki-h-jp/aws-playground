@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>電卓</title>
+  <style>
+    * {font:bold 16px "Osaka-等幅", "ＭＳ　ゴシック", "monospace"}
+    .key {width:60px; height:60px; margin:5px}
+    .container {margin: 10px}
+    #div1 {width:400px; clear:both; margin:15px}
+    #div2 {width:230px; float:left}
+    #div3 {width:140px; float:left}
+    #disp {width:360px; padding:10px; font-size:32px; resize:none; text-align:right}
+  </style>
+  <script>
+    var dsp = "0"; // 表示部の内容 (文字列)
+    var opr1; // 保存している第1オペランド (被演算子)
+    var operator; // 保存している演算子
+    var wasnum = false; // 最後に押したキーが数字ならtrue
+
+    function calculate() {
+      switch (operator) {
+        case 1: opr1 += parseFloat(dsp); break;
+        case 2: opr1 -= parseFloat(dsp); break;
+        case 3: opr1 *= parseFloat(dsp); break;
+        case 4: opr1 /= parseFloat(dsp); break;
+      }
+      dsp = String(opr1);
+    }
+
+<!--表示内容の更新-->
+    function display (numkey) {
+      wasnum = numkey;
+      document.getElementById("disp").innerHTML = dsp;
+    }
+
+<!--押されたキーが数字かどうか-->
+    function nk(k) {
+      var ch = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "."][k];
+
+      if (!wasnum) {
+        if (k > 9) dsp = "0.";
+        else dsp = ch;
+      } else {
+        if (k < 9) {
+          if (dsp.indexOf(".") < 0) dsp += ".";
+        } else {
+          if (dsp === "0") {
+            dsp = ch;
+          } else {
+            dsp += ch;
+          }
+        }
+      }
+      display(true);
+    }
+
+<!--execute calculate-->
+    function op(k) {
+      if (operator !== undefined && operator != 9 && (wasnum || k == 9)) calculate();
+      operator = k;
+      opr1 = parseFloat(dsp);
+      display(false);
+    }
+<!--all clear-->
+
+    function ac() {
+      dsp = "0";
+      opr1 = operator = undefined;
+      display(false);
+    }
+
+  </script>
+</head>
+<body>
+<div id="div0" class="container">
+  <div id="div1" class="container">
+    <textarea id="disp" rows="1" readonly>0</textarea>
+  </div>
+  <div id="div2" class="container">
+    <input type="button" value="7" class="key" onmousedown="nk(7)">
+    <input type="button" value="8" class="key" onmousedown="nk(8)">
+    <input type="button" value="9" class="key" onmousedown="nk(9)">
+    <input type="button" value="4" class="key" onmousedown="nk(4)">
+    <input type="button" value="5" class="key" onmousedown="nk(5)">
+    <input type="button" value="6" class="key" onmousedown="nk(6)">
+    <input type="button" value="1" class="key" onmousedown="nk(1)">
+    <input type="button" value="2" class="key" onmousedown="nk(2)">
+    <input type="button" value="3" class="key" onmousedown="nk(3)">
+    <input type="button" value="0" class="key" onmousedown="nk(0)" style="width:140px">
+    <input type="button" value="." class="key" onmousedown="nk(10)">
+  </div>
+  <div id="div3" class="container">
+    <input type="button" value="AC" class="key" style="width:130px" onmousedown="ac()">
+    <div style="margin:0; padding:0; width:70px; float:left">
+      <input type="button" value="×" class="key" onmousedown="op(3)">
+      <input type="button" value="+" class="key" onmousedown="op(1)" style="height:130px">
+    </div>
+    <div style="margin:0; padding:0; width:70px; float:left">
+      <input type="button" value="÷" class="key" onmousedown="op(4)">
+      <input type="button" value="-" class="key" onmousedown="op(2)">
+      <input type="button" value="=" class="key" onmousedown="op(9)">
+    </div>
+  </div>
+</div>
+</body>
+</html>
