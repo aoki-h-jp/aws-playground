@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ドラゴン曲線</title>
+</head>
+<body>
+<canvas id="CanvasId" width="1024" height="1024" style="border:1px solid grey"></canvas>
+<script>
+  var cvs = document.getElementById("CanvasId");
+  var ctx = cvs.getContext("2d");
+  var curx = 300, cury = 300;
+
+  function dragon(dx, dy, sign, ord) {
+    if (ord < 1) {
+      curx += dx;
+      cury += dy;
+      ctx.lineTo(curx, cury);
+    } else {
+      dragon((dx - sign * dy)/2, (dy + sign * dx)/2, 1, ord - 1);
+      dragon((dx + sign * dy)/2, (dy - sign * dx)/2, -1, ord - 1);
+    }
+  }
+  ctx.moveTo(curx, cury);
+  dragon(500 ,0, 1, 14);
+  ctx.stroke();
+</script>
+</body>
+</html>

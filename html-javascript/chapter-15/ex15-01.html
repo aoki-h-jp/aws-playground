@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>マウスの軌跡</title>
+</head>
+<body>
+<canvas id="CanvasId" width="600" height="600" style="background-color:aqua"></canvas>
+<script>
+  var cvs = document.getElementById("CanvasId");
+  var ctx = cvs.getContext("2d");
+  var rect = cvs.getBoundingClientRect();
+  ctx.font = "24px Arial";
+
+  cvs.addEventListener("mousemove", function(evt) {
+    var x = evt.clientX - rect.left;
+    var y = evt.clientY - rect.top;
+    var coord = "(" + x + ", " + y + ")";
+    ctx.clearRect(0, 0, cvs.width, cvs.height);
+    ctx.fillText(coord, 10, 30);
+
+    ctx.lineTo(x, y)
+    ctx.stroke();
+  })
+</script>
+</body>
+</html>

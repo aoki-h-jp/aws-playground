@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>アニメーション</title>
+</head>
+<body>
+<canvas id="CanvasId" width="1024" height="1024"></canvas>
+<script>
+  var cvs = document.getElementById("CanvasId");
+  var ctx = cvs.getContext("2d");
+  var p = 0;
+
+  function redraw () {
+    var x, y, t, deg = Math.PI/180;
+
+    ctx.clearRect(0, 0, cvs.width, cvs.height);
+    ctx.beginPath();
+    for (t = 0; t < Math.PI * 2; t += deg) {
+      x = 300 * (Math.sin(2 * t + p) + 1);
+      y = 300 * (Math.sin(3 * t) + 1);
+      ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+    p += deg;
+  }
+
+  setInterval(function(){redraw();}, 100);
+</script>
+</body>
+</html>

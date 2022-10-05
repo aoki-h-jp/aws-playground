@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>シェルピンスキーの三角形</title>
+</head>
+<body>
+<canvas id="CanvasId" width="1024" height="1024" style="border:1px solid grey"></canvas>
+<script>
+  var cvs = document.getElementById("CanvasId");
+  var ctx = cvs.getContext("2d");
+  var hgt = Math.sqrt(3)/2;
+
+  function drawTriangle (x0, y0, len) {
+    if (len < 16) {
+      ctx.moveTo(x0 + len/2, y0);
+      ctx.lineTo(x0, y0 + hgt*len);
+      ctx.lineTo(x0 + len, y0 + hgt*len);
+      ctx.lineTo(x0 + len/2, y0);
+      ctx.stroke();
+    } else {
+      len /= 2;
+      drawTriangle(x0 + len/2, y0, len);
+      drawTriangle(x0, y0 + hgt*len, len);
+      drawTriangle(x0 + len, y0 + hgt*len, len);
+    }
+  }
+
+  drawTriangle(0, 0, 1024);
+</script>
+</body>
+</html>
