@@ -220,6 +220,15 @@
 </details>
 <details>
 <summary>Chapter-15</summary>
+
+### グラフィックスのプログラム
+
+- ex15-01.html マウスが動いた跡を追いかけて絵を描く
+- ex15-02.html ドラゴン曲線の描画
+- ex15-03.html ドラゴン曲線の描画 (2)
+- ex15-04.html シェルピンスキーの三角形の描画
+- ex15-05.html アニメーションの描画
+
 </details>
 <details>
 <summary>Chapter-16</summary>
