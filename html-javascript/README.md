@@ -232,4 +232,9 @@
 </details>
 <details>
 <summary>Chapter-16</summary>
+
+### 電卓のプログラム
+
+- ex16-01.html 電卓のプログラム
+
 </details>
