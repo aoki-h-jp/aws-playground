@@ -13,4 +13,8 @@ git clone https://github.com/aoki-h-jp/playground.git
 
 ## python-w3resource-exercises
 - exercises for [w3resource](https://www.w3resource.com/python-exercises/)
-- A large number of questions (1000+) and almost whole range of Python exercises
+- A large number of questions (1000+, almost whole range of Python)
+
+## javascript-teach-yourself
+- exercises for「独習 Javascript」
+- basic javascript lesson
