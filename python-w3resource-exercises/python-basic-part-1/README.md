@@ -77,3 +77,35 @@
 - 009とほぼ同じ
 - 答えを出すだけなら与えられた数の11倍, 111倍を足せば良さそうだが、その場合2桁以上に対応できないので文字列の性質を利用する
 </details>
+
+<details>
+<summary>011.py - Write a Python program to print the documents (syntax, description etc.) of Python built-in function(s).</summary>
+
+- built-in functionでは__doc__でdocstringを呼べる
+</details>
+
+<details>
+<summary>012.py - Write a Python program to print the calendar of a given month and year.
+Note : Use 'calendar' module.</summary>
+
+- calendar.month(year, month)でカレンダーを呼べる
+</details>
+
+<details>
+<summary>013.py - Write a Python program to print the following 'here document'.</summary>
+
+- print()の中で引用符を3つ続けるとhere documentの形式になる
+</details>
+
+<details>
+<summary>014.py - Write a Python program to calculate number of days between two dates.</summary>
+
+- timedeltaを使っても同じことができそう
+- *tupleでタプルはunpackできる
+</details>
+
+<details>
+<summary>015.py - Write a Python program to get the volume of a sphere with radius 6.</summary>
+
+- $ V = \dfrac{4}{3} \pi r^{3} $
+</details>
