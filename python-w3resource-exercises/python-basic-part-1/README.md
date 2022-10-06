@@ -42,3 +42,38 @@
 - 間に空白を入れる時は" "
 </details>
 
+<details>
+<summary>006.py - Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers.</summary>
+
+- inputで受け取ったStringをsplitする
+- split(',')で,を区切り文字として分割でき、区切ったlistが返ってくる
+</details>
+
+<details>
+<summary>007.py - Write a Python program to accept a filename from the user and print the extension of that.</summary>
+
+- split後、必ず2番目に拡張子が来るのでsplit('.')[1]で取得できる
+- 仮にフルパスを与えられた時のためにos.path.basenameを使用する
+
+</details>
+
+<details>
+<summary>008.py - Write a Python program to display the first and last colors from the following list.</summary>
+
+- [-1]でlistの最後の要素を取得できる
+</details>
+
+<details>
+<summary>009.py - Write a Python program to display the examination schedule. (extract the date from exam_st_date).</summary>
+
+- 書式化演算子%を使うとtupleを利用して文字列を生成できる
+- (変換指定子付きの文字列) % tupleが基本の使い方
+- 変換指定子%iは符号付き10進数の整数を表す
+</details>
+
+<details>
+<summary>010.py - Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn.</summary>
+
+- 009とほぼ同じ
+- 答えを出すだけなら与えられた数の11倍, 111倍を足せば良さそうだが、その場合2桁以上に対応できないので文字列の性質を利用する
+</details>
