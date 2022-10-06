@@ -107,5 +107,35 @@ Note : Use 'calendar' module.</summary>
 <details>
 <summary>015.py - Write a Python program to get the volume of a sphere with radius 6.</summary>
 
-- $ V = \dfrac{4}{3} \pi r^{3} $
+- V = 4/3 * pi * r^3
+</details>
+
+<details>
+<summary>016.py - Write a Python program to get the difference between a given number and 17, if the number is greater than 17 return double the absolute difference.</summary>
+
+- 題意の通り分岐処理を書く
+</details>
+
+<details>
+<summary>017.py - Write a Python program to test whether a number is within 100 of 1000 or 2000.</summary>
+
+- 与えられた数値が900 ~ 1100 or 1900 ~ 2100の範囲内にあるかどうかという条件はabsを使えばよりシンプルに書ける
+</details>
+
+<details>
+<summary>018.py - Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum.</summary>
+
+- AとBとCの値が等しい時「A == B == C」と書ける
+</details>
+
+<details>
+<summary>019.py - Write a Python program to get a new string from a given string where "Is" has been added to the front. If the given string already begins with "Is" then return the string unchanged.</summary>
+
+- Isで始まるかどうかという判定の前に長さが2未満だとその判定でエラーが出ることに気を付ける
+</details>
+
+<details>
+<summary>020.py - Write a Python program to get a string which is n (non-negative integer) copies of a given string.</summary>
+
+- 'aa' * 3 => 'aaaaaa'
 </details>
