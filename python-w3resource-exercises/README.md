@@ -1,7 +1,8 @@
 # python-w3resource-exercises
 - This is exercises from [w3resource](https://www.w3resource.com/python-exercises/) solved in my own environment.
-- Executed Python: 3.9.13
+- Python: 3.9.13
 - You can find my answers in the following directories.
+- It often differs from the solution listed on w3resource (but works as intended).
 
 |                   dir                   |              exercise name              | num. of problems |  status   |
 |:---------------------------------------:|:---------------------------------------:|:----------------:|:---------:|
