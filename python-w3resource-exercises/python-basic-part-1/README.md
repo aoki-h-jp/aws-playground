@@ -139,3 +139,34 @@ Note : Use 'calendar' module.</summary>
 
 - 'aa' * 3 => 'aaaaaa'
 </details>
+
+<details>
+<summary>021.py - Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.</summary>
+
+- 題意の通りの分岐処理を書く
+</details>
+
+<details>
+<summary>022.py - Write a Python program to count the number 4 in a given list.</summary>
+
+- list.count()で要素のカウントができる
+</details>
+
+<details>
+<summary>023.py - Write a Python program to get the n (non-negative integer) copies of the first 2 characters of a given string. Return the n copies of the whole string if the length is less than 2.</summary>
+
+- 020.pyとほぼ同じ点に気を付ける
+</details>
+
+<details>
+<summary>024.py - Write a Python program to test whether a passed letter is a vowel or not.</summary>
+
+- 'vowel' if given_ltr in ['a', 'i', 'u', 'e', 'o']のリストは'aiueo'で代用できる
+- 英語圏だとaeiouが普通らしい
+</details>
+<details>
+
+<summary>025.py - Write a Python program to check whether a specified value is contained in a group of values.</summary>
+
+- 題意の通りの分岐処理を書く
+</details>
