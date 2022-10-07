@@ -1,4 +1,4 @@
-## 理解度チェック
+## chapter-01 理解度チェック
 [1] ECMAScriptとは何かを答えてください。
 - JavaScriptの仕様
 
