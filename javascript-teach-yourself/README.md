@@ -4,10 +4,21 @@
 
 <details>
 <summary>Chapter-01 イントロダクション</summary>
+
+- index.html // hello world
+- README.md // 理解度チェック
+
 </details>
 
 <details>
 <summary>Chapter-02 JavaScript開発の基礎</summary>
+
+- console_error.html // エラーの確認
+- inline_script.html // 外部のjsファイルを読み込む確認
+- main.js // inline_script.htmlで読み込まれるjsファイル
+- /debugging // Chrome上でdebugを行う練習をするためのディレクトリ
+- README.md, sec_end2.html, sec_end3.html // 理解度チェック
+
 </details>
 
 <details>
