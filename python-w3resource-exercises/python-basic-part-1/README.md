@@ -164,9 +164,35 @@ Note : Use 'calendar' module.</summary>
 - 'vowel' if given_ltr in ['a', 'i', 'u', 'e', 'o']のリストは'aiueo'で代用できる
 - 英語圏だとaeiouが普通らしい
 </details>
-<details>
 
+<details>
 <summary>025.py - Write a Python program to check whether a specified value is contained in a group of values.</summary>
 
 - 題意の通りの分岐処理を書く
+</details>
+
+<details>
+<summary>026.py - Write a Python program to create a histogram from a given list of integers.</summary>
+
+- ヒストグラムの描画なのでmatplotlib.pyplot.histを使う
+</details>
+<details>
+<summary>027.py - Write a Python program to concatenate all elements in a list into a string and return it.</summary>
+
+- str.joinメソッドを使う
+</details>
+<details>
+<summary>028.py - Write a Python program to print all even numbers from a given numbers list in the same order and stop the printing if any numbers that come after 237 in the sequence.</summary>
+
+- 題意の通りの処理をfor文で書く
+</details>
+<details>
+<summary>029.py - Write a Python program to print out a set containing all the colors from color_list_1 which are not present in color_list_2.</summary>
+
+- 差集合を利用する
+</details>
+<details>
+<summary>030.py - Write a Python program that will accept the base and height of a triangle and compute the area.</summary>
+
+- S = 1/2 * b * h
 </details>
