@@ -46,6 +46,10 @@
 
 <details>
 <summary>Chapter-06 関数</summary>
+
+- 6-01.html, 6-01.js, 6-02.html, 6-02.js, 6-03.html, 6-03.js, 6-04.html, 6-04.js, 6-05.html, 6-05.js, 6-06.html, 6-06.js, 6-07.html, 6-07.js, 6-08.html, 6-08.js, 6-09.html, 6-09.js, 6-10.html, 6-10.js, 6-11.html, 6-11.js // exercise
+- README.md, chapter-06-check.html, chapter-06-check.js // 理解度チェック
+
 </details>
 
 <details>
