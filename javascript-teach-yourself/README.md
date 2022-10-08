@@ -23,6 +23,10 @@
 
 <details>
 <summary>Chapter-03 変数とデータ型</summary>
+
+- 3-4.html, 3-4.js, 3-6.html, 3-6.js, 3-7.html, 3-7.js, 3-8.html, 3-8.js // exercise用
+- chapter-03-check.html, chapter-03-check.js // 理解度チェック用
+
 </details>
 
 <details>
