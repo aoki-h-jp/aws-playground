@@ -38,6 +38,10 @@
 
 <details>
 <summary>Chapter-05 制御構文</summary>
+
+- 5-01.html, 5-01.js, 5-02.html, 5-02.js, 5-03.html, 5-03.js, 5-04.html, 5-04.js, 5-05.html, 5-05.js, 5-06.html, 5-06.js, 5-07.html, 5-07.js, 5-08.html, 5-08.js, 5-09.html, 5-09.js, 5-10.html, 5-10.js, 5-11.html, 5-11.js, 5-12.html, 5-12.js, 5-13.html, 5-13.js, 5-14.html, 5-14.js // exercise
+- README.md, chapter-05-check.html, chapter-05-check.js // 理解度チェック
+
 </details>
 
 <details>
