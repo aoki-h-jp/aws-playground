@@ -62,6 +62,9 @@
 
 <details>
 <summary>Chapter-08 thisキーワード</summary>
+
+- README.md // exercise, 理解度チェック
+
 </details>
 
 <details>
