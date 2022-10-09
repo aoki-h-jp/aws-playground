@@ -69,6 +69,10 @@
 
 <details>
 <summary>Chapter-09 クラス</summary>
+
+- 9-1.html, 9-1.js, 9-2.html, 9-2.js, 9-3.html, 9-3.js, 9-4.html, 9-4.js, 9-6.html, 9-6.js // exercise
+- README.md, chapter-09-check.html, chapter-09-check.js // 理解度チェック
+
 </details>
 
 <details>
