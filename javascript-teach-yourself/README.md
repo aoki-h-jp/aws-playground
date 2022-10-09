@@ -54,6 +54,10 @@
 
 <details>
 <summary>Chapter-07 スコープ</summary>
+
+- 7-3.html // exercise
+- README.md, chapter-07-check.html, chapter-07-check.js // 理解度チェック
+
 </details>
 
 <details>
