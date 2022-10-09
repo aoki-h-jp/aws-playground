@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise7-3</title>
+</head>
+<body>
+    <!-- Uncaught ReferenceError: result is not definedが発生するコード -->
+    <!-- 原因はresultのスコープがブロックスコープなのにその外から呼ぼうとしたから -->
+    <!-- <script>
+        let rand;
+
+        function chance() {
+            rand = Math.random();
+            if (rand < .5) {
+                let result = "成功";
+            } else {
+                let result = "失敗";
+            }
+            return result;
+        }
+        console.log(chance());
+    </script> -->
+    <!-- 修正後のコード -->
+    <script>
+        let rand;
+
+        function chance() {
+            rand = Math.random();
+            let result;
+            if (rand < .5) {
+                result = "成功";
+            } else {
+                result = "失敗";
+            }
+            return result;
+        }
+        console.log(chance());
+    </script>
+</body>
+</html>
