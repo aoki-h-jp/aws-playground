@@ -176,23 +176,57 @@ Note : Use 'calendar' module.</summary>
 
 - ヒストグラムの描画なのでmatplotlib.pyplot.histを使う
 </details>
+
 <details>
 <summary>027.py - Write a Python program to concatenate all elements in a list into a string and return it.</summary>
 
 - str.joinメソッドを使う
 </details>
+
 <details>
 <summary>028.py - Write a Python program to print all even numbers from a given numbers list in the same order and stop the printing if any numbers that come after 237 in the sequence.</summary>
 
 - 題意の通りの処理をfor文で書く
 </details>
+
 <details>
 <summary>029.py - Write a Python program to print out a set containing all the colors from color_list_1 which are not present in color_list_2.</summary>
 
 - 差集合を利用する
 </details>
+
 <details>
 <summary>030.py - Write a Python program that will accept the base and height of a triangle and compute the area.</summary>
 
 - S = 1/2 * b * h
+</details>
+
+<details>
+<summary>031.py - Write a Python program to compute the greatest common divisor (GCD) of two positive integers.</summary>
+
+- mathモジュールのgcd()を利用する
+</details>
+
+<details>
+<summary>032.py - Write a Python program to get the least common multiple (LCM) of two positive integers.</summary>
+
+- mathモジュールのlcm()を利用する
+</details>
+
+<details>
+<summary>033.py - Write a Python program to sum of three given integers. However, if two values are equal sum will be zero.</summary>
+
+- set(list)で重複した要素が重なるため、len(list) - len(set(list))を計算すれば重複した要素の数が計算できる
+</details>
+
+<details>
+<summary>034.py - Write a Python program to sum of two given integers. However, if the sum is between 15 to 20 it will return 20.</summary>
+
+- 題意の通りの分岐処理を書く
+</details>
+
+<details>
+<summary>035.py - Write a Python program that will return true if the two given integer values are equal or their sum or difference is 5.</summary>
+
+- 題意の通りの分岐処理を書く
 </details>
