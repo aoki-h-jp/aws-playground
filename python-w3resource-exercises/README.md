@@ -23,7 +23,7 @@
 |              python-bisect              |              Python Bisect              |        9         ||
 | python-conditional-statements-and-loops | Python conditional statements and loops |        44        ||
 |            python-functions             |            Python functions             |        21        ||
-|              python-lambda              |              Python Lambda              |        52        ||
+|              python-lambda              |              Python Lambda              |        52        | :running: |
 |               python-map                |               Python map                |        17        ||
 |           python-os-services            |           Python OS Services            |        18        ||
 |             python-datetime             |            Python Date Time             |        63        ||
