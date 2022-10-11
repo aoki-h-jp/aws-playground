@@ -77,6 +77,10 @@
 
 <details>
 <summary>Chapter-10 組み込みオブジェクト</summary>
+
+- 10-1.html, 10-1.js, 10-2.html, 10-2.js, 10-3.html, 10-3.js, 10-4.html, 10-4.js, 10-6.html, 10-6.js // exercise
+- README.md, chapter-10-check-01.html, chapter-10-check-01.js, chapter-10-check-03.html, chapter-10-check-03.js, chapter-10-check-04.html, chapter-10-check-04.js, chapter-10-check-05.html, chapter-10-check-05.js // 理解度チェック
+
 </details>
 
 <details>
