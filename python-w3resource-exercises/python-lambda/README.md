@@ -80,3 +80,34 @@
 - range(-1)はエラーにならずlistで出力すると[]が返ってくる
 - [1] + [2] = [1, 2]なので、畳み込むとリストの要素がどんどん増える
 </details>
+
+<details>
+<summary>011.py - Write a Python program to find intersection of two given arrays using Lambda.</summary>
+
+- filterを使う
+- filterの引数の関数の判定の結果、Trueになったものだけが出力される
+</details>
+
+<details>
+<summary>012.py - Write a Python program to rearrange positive and negative numbers in a given array using Lambda.</summary>
+
+- ぱっと見規則性がよくわからないが、出力されているリストの逆数をそれぞれ取ると大きい順に並んでいるのでそのように処理を書く
+</details>
+
+<details>
+<summary>013.py - Write a Python program to count the even, odd numbers in a given array of integers using Lambda.</summary>
+
+- filterで偶数か奇数かを判定し、その要素数を数える
+</details>
+
+<details>
+<summary>014.py - Write a Python program to find the values of length six in a given list using Lambda.</summary>
+
+- filterで6文字かどうか判定し、その結果を出力する
+</details>
+
+<details>
+<summary>015.py - Write a Python program to add two given lists using map and lambda.</summary>
+
+- mapは複数引数が取れる、map(関数, [関数に入れたいiterator object])
+</details>
