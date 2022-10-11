@@ -42,3 +42,41 @@
 - filterを使う
 - 第一引数にフィルター条件となる関数、第二引数にフィルターしたいiterable objectを指定する
 </details>
+
+<details>
+<summary>006.py - Write a Python program to square and cube every number in a given list of integers using Lambda.</summary>
+
+- mapを使う
+- 第一引数に適用したい関数、第二引数にiterable objectを指定する
+</details>
+
+<details>
+<summary>007.py - Write a Python program to find if a given string starts with a given character using Lambda.</summary>
+
+- 題意が曖昧だがここでは「与えられた文字列が'a'から始まるかどうかを判定する」Python programを書くことにした
+- ここでもPEP8警告が出るがLambdaを使う指定なので気にしない
+- string.startswithで文字列が指定した言葉で始まるかを確認できる
+</details>
+
+<details>
+<summary>008.py - Write a Python program to extract year, month, date and time using Lambda.</summary>
+
+- 本当はlambdaを使わなくてもdatetime.yearとかで参照した方がスマートだと思う
+</details>
+
+<details>
+<summary>009.py - Write a Python program to check whether a given string is number or not using Lambda.</summary>
+
+- string.isdigitでその文字列が数値かどうか判別できる
+- これもlambda使った方が冗長なので本当はやめた方がいい
+</details>
+
+<details>
+<summary>010.py - Write a Python program to create Fibonacci series upto n using Lambda.</summary>
+
+- functools.reduceを使う
+- reduce(func, iter, initializer)で畳み込み演算が可能
+- フィボナッチ数列の漸化式：a_n = a_{n-1}+a_{n-2} (n = 2,3,...), a_0 = 0, a_1 = 1
+- range(-1)はエラーにならずlistで出力すると[]が返ってくる
+- [1] + [2] = [1, 2]なので、畳み込むとリストの要素がどんどん増える
+</details>
