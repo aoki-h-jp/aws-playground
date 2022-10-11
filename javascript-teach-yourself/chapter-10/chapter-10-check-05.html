@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter-10-check-5</title>
+</head>
+<body>
+    <style>
+        body {
+            height: 2000px;
+            width: 2000px;
+            background: linear-gradient(135deg, black 0%, white 100%);
+        }
+    </style>
+    <script>
+        if (localStorage.getItem("scrolled") !== null) {
+            const scrolled = JSON.parse(localStorage.getItem("scrolled"));
+            scroll(scrolled.x, scrolled.y);
+        }
+        const intervalId = setInterval(() => {
+            const scrolled = {x: scrollX, y: scrollY};
+            localStorage.setItem("scrolled", JSON.stringify(scrolled));
+            console.log(scrolled);
+        }, 1000)
+    </script>
+    
+</body>
+</html>

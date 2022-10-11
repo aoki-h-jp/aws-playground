@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter-10-check-04</title>
+</head>
+<body>
+    <script>
+        const html = `<h1>1</h1>
+        <h2>2</h2>
+        <h3>3</h3>
+        <header>h</header>`;
+        const matches = html.matchAll(/<(h[1-6])>(.+)<\/\1>/g);
+        for (let m of matches) {
+            console.log(m[2]);
+        }
+    </script> 
+</body>
+</html>
