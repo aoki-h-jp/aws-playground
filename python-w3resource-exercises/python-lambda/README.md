@@ -111,3 +111,37 @@
 
 - mapは複数引数が取れる、map(関数, [関数に入れたいiterator object])
 </details>
+
+<details>
+<summary>016.py - Write a Python program to find the second lowest grade of any student(s) from the given names and grades of each student using lists and lambda. Input number of students, names and grades of each student.</summary>
+
+- 生徒の名前とGradeを入れてから動かすのが題意っぽいが、ここでは生徒は固定として考える（追加したい場合はlistにappendすればいい）
+- 題意からgradeがthe lowestなのが1なのか3なのかわからないが1がlowestと考えることにする
+</details>
+
+<details>
+<summary>017.py - Write a Python program to find numbers divisible by nineteen or thirteen from a list of numbers using Lambda.</summary>
+
+- filterを使って抽出する
+</details>
+
+<details>
+<summary>018.py - Write a Python program to find palindromes in a given list of strings using Lambda.</summary>
+
+- palindromes「回文」
+- reverseしたものと一致すればOK
+- string[::-1]で''.join(list(reversed(string)))と同じ結果が得られる
+</details>
+
+<details>
+<summary>019.py - Write a Python program to find all anagrams of a string in a given list of strings using lambda.</summary>
+
+- anagrams「単語に含まれる文字の順序を変えて、別の意味の単語を作る遊び」
+- ソートして一緒になればOK
+</details>
+
+<details>
+<summary>020.py - Write a Python program to find the numbers of a given string and store them in a list, display the numbers which are bigger than the length of the list in sorted form. Use lambda function to solve the problem.</summary>
+
+- filterを使って抽出する
+</details>
