@@ -189,3 +189,41 @@
 - permutationsを使うために数値をstringに変換して並び替える
 - 一番大きい場合はFalseを返すので、IndexError時にFalseを返すことにする
 </details>
+
+<details>
+<summary>026.py - Write a Python program to find the list with maximum and minimum length using lambda.</summary>
+
+- min(list, key)でkeyに指定された処理の後のlistの要素の最小値が求められる
+- maxでも同様
+</details>
+
+<details>
+<summary>027.py - Write a Python program to sort each sublist of strings in a given list of lists using lambda.</summary>
+
+- mapで処理する
+
+</details>
+
+<details>
+<summary>028.py - Write a Python program to sort a given list of lists by length and value using lambda.</summary>
+
+- sortedで処理する
+- keyのlambdaにはlen(l)だけでなくリスト自体も指定する
+- 2つのkeyでソートするときはlambda x: (x[0], x[1])のようにタプルで指定する
+
+</details>
+
+<details>
+<summary>029.py - Write a Python program to find the maximum value in a given heterogeneous list using lambda.</summary>
+
+- stringも含まれているのでまずisinstanceでソートする
+- isinstance(object, classinfo)でデータ型の比較が可能 (Trueなら等しい)
+
+</details>
+
+<details>
+<summary>030.py - Write a Python program to sort a given matrix in ascending order according to the sum of its rows using lambda.</summary>
+
+- keyをsumにしてsortedする
+
+</details>
