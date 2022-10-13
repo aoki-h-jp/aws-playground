@@ -93,6 +93,11 @@
 
 <details>
 <summary>Chapter-12 反復処理</summary>
+
+- iterator-generator.html, iterator-generator.js // イテレータとジェネレータの確認
+- 12-1.html, 12-1.js, 12-2.html, 12-2.js, 12-3.html, 12-3.js, 12-4.html, 12-4.js // exercise
+- README.md, chapter-12-check.html, chapter-12-check.js // 理解度チェック
+
 </details>
 
 <details>
