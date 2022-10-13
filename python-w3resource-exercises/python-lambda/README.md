@@ -6,6 +6,13 @@
 % python 001.py
 ```
 
+## Summary, Comment
+- 無名関数、高階関数についての演習
+- lambda, map, filter, reduceを扱う
+- Pythonでは可読性を上げることや関数型プログラミングを避けたい傾向があるため、高階関数よりリスト内包表記などを用いた方がbetter
+- 例えば畳み込み演算を行うreduceはsumなどで代用できるしそちらの方が可読性が良いのでfunctoolsに格下げされている
+- 一方でsortのkey引数などにはlambdaはよく使われるので、適所で使用できた方も良い
+
 ## Key points
 
 <details>
@@ -144,4 +151,41 @@
 <summary>020.py - Write a Python program to find the numbers of a given string and store them in a list, display the numbers which are bigger than the length of the list in sorted form. Use lambda function to solve the problem.</summary>
 
 - filterを使って抽出する
+</details>
+
+<details>
+<summary>021.py - Write a Python program that multiply each number of given list with a given number using lambda function. Print the result.</summary>
+
+- mapを使う
+</details>
+
+<details>
+<summary>022.py - Write a Python program that sum the length of the names of a given list of names after removing the names that starts with an lowercase letter. Use lambda function.</summary>
+
+- filterでuppercaseから始まってるかどうかをみる (string.isupperが使える)
+- 1行で書けるが、可読性が良くないので本当はやめた方が良さそう
+</details>
+
+<details>
+<summary>023.py - Write a Python program to calculate the sum of the positive and negative numbers of a given list of numbers using lambda function.</summary>
+
+- filterを使って抽出する
+- sum(list)で総和が取れる
+</details>
+
+<details>
+<summary>024.py - Write a Python program to find numbers within a given range where every number is divisible by every digit it contains.</summary>
+
+- 例えば12だったら12が1か2で割れるかどうか(これは割れる)、13だったら1か3で割れるかどうか(3で割れない)みたいなことを調べればいい
+- 0では割れないので条件が1個でも成り立たなかったらリストに追加しないという処理にする
+- anyを使って判定する
+</details>
+
+<details>
+<summary>025.py - Write a Python program to create the next bigger number by rearranging the digits of a given number.</summary>
+
+- itertools.permutationを使って列挙し、その中から探す
+- このやり方は数値が数十桁になったりするとスケーラビリティに問題がありそうだが、ここでは考えないことにする
+- permutationsを使うために数値をstringに変換して並び替える
+- 一番大きい場合はFalseを返すので、IndexError時にFalseを返すことにする
 </details>
