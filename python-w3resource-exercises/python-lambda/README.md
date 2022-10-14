@@ -266,3 +266,38 @@
 - 題意の例だとソートされているのにFalseと出ていて何かおかしい気がするが、すでにソートされていればTrue、そうでなければFalseと判定するコードを書くことにする
 
 </details>
+
+<details>
+<summary>036.py - Write a Python program to extract the nth element from a given list of tuples using lambda.</summary>
+
+- mapを使う
+
+</details>
+
+<details>
+<summary>037.py - Write a Python program to sort a list of lists by a given index of the inner list using lambda.</summary>
+
+- sortedを使う
+
+</details>
+
+<details>
+<summary>038.py - Write a Python program to remove all elements from a given list present in another list using lambda.</summary>
+
+- list.remove(x)でlist内の要素xを削除できるが、返り値がないのでここではfilterを使う
+
+</details>
+
+<details>
+<summary>039.py - Write a Python program to find the elements of a given list of strings that contain specific substring using lambda.</summary>
+
+- filterを使う
+
+</details>
+
+<details>
+<summary>040.py - Write a Python program to find the nested lists elements, which are present in another list using lambda.</summary>
+
+- 流石に内包表現を使った方が見やすいので内包表記とfilterで書く (mapとfilterのみで書けるのか？)
+
+</details>
