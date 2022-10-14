@@ -301,3 +301,39 @@
 - 流石に内包表現を使った方が見やすいので内包表記とfilterで書く (mapとfilterのみで書けるのか？)
 
 </details>
+
+<details>
+<summary>041.py - Write a Python program to reverse strings in a given list of string values using lambda.</summary>
+
+- mapで全体の文字列を逆順にする
+
+</details>
+
+<details>
+<summary>042.py - Write a Python program to calculate the product of a given list of numbers using lambda.</summary>
+
+- reduceを使う
+
+</details>
+
+<details>
+<summary>043.py - Write a Python program to multiply all the numbers in a given list using lambda.</summary>
+
+- 042とほぼ同じ
+
+</details>
+
+<details>
+<summary>044.py - Write a Python program to calculate the average value of the numbers in a given tuple of tuples using lambda.</summary>
+
+- index毎に処理したいのでzipを使う
+- 引数にはunpackしつつ入れる
+
+</details>
+
+<details>
+<summary>045.py - Write a Python program to convert string element to integer inside a given tuple using lambda.</summary>
+
+- タプルの中身がintに変換できるかどうかを判定し、変換できるものは全て変換した状態にするという処理を書く
+
+</details>
