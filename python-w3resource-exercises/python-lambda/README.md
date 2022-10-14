@@ -227,3 +227,42 @@
 - keyをsumにしてsortedする
 
 </details>
+
+<details>
+<summary>031.py - Write a Python program to extract specified size of strings from a give list of string values using lambda.</summary>
+
+- filterを使う
+
+</details>
+
+<details>
+<summary>032.py - Write a Python program to count float number in a given mixed list using lambda.</summary>
+
+- filterとisinstanceを使う
+
+</details>
+
+<details>
+<summary>033.py - Write a Python program to check whether a given string contains a capital letter, a lower case letter, a number and a minimum length using lambda.</summary>
+
+- パスワードの制約みたいなイメージで判定する
+- 最低文字数はとりあえず8文字とする
+- 制約を満たしていればTrue、そうでなければFalseとする
+- 一つでも入っていればいいのでanyを使う
+- 可読性が鬼のように悪いので、本当はちゃんとdefで書いた方がいいとは思う
+
+</details>
+
+<details>
+<summary>034.py - Write a Python program to filter the height and width of students, which are stored in a dictionary using lambda.</summary>
+
+- 出力の都合でtupleを強引にdictにする必要がある
+
+</details>
+
+<details>
+<summary>035.py - Write a Python program to check whether a specified list is sorted or not using lambda.</summary>
+
+- 題意の例だとソートされているのにFalseと出ていて何かおかしい気がするが、すでにソートされていればTrue、そうでなければFalseと判定するコードを書くことにする
+
+</details>
