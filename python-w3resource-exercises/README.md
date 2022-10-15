@@ -4,9 +4,9 @@
 - You can find my answers in the following directories.
 - It often differs from the solution listed on w3resource (but works as intended).
 
-|                   dir                   |              exercise name              | num. of problems |  status   |
-|:---------------------------------------:|:---------------------------------------:|:----------------:|:---------:|
-|           python-basic-part-1           |         Python basic (Part -I)          |       150        | :running: |
+|                   dir                   |              exercise name              | num. of problems |       status       |
+|:---------------------------------------:|:---------------------------------------:|:----------------:|:------------------:|
+|           python-basic-part-1           |         Python basic (Part -I)          |       150        |     :running:      |
 |           python-basic-part-2           |         Python basic (Part -II)         |       150        ||
 |             python-puzzles              |       Python Programming Puzzles        |       100        ||
 |         python-built-in-modules         |         Python built-in Modules         |        31        ||
@@ -23,7 +23,7 @@
 |              python-bisect              |              Python Bisect              |        9         ||
 | python-conditional-statements-and-loops | Python conditional statements and loops |        44        ||
 |            python-functions             |            Python functions             |        21        ||
-|              python-lambda              |              Python Lambda              |        52        | :running: |
+|              python-lambda              |              Python Lambda              |        52        | :white_check_mark: |
 |               python-map                |               Python map                |        17        ||
 |           python-os-services            |           Python OS Services            |        18        ||
 |             python-datetime             |            Python Date Time             |        63        ||
