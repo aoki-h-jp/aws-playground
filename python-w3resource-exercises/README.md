@@ -31,7 +31,7 @@
 |        python-search-and-sorting        |        Python Search and Sorting        |        39        ||
 |           python-linked-list            |           Python Linked List            |        14        ||
 |        python-binary-search-tree        |        Python Binary Search Tree        |        6         ||
-|            python-recursion             |            Python Recursion             |        11        ||
+|            python-recursion             |            Python Recursion             |        11        | :white_check_mark: |
 |               python-math               |               Python Math               |        94        ||
 |        python-file-input-output         |        Python File Input Output         |        21        ||
 |        python-regular-expression        |        Python Regular Expression        |        58        ||
