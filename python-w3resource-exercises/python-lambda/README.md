@@ -374,3 +374,17 @@
 - filterを使う
 
 </details>
+
+<details>
+<summary>051.py - Write a Python program to find the maximum and minimum values in a given list of tuples using lambda function.</summary>
+
+- x[1]でsortedする
+
+</details>
+
+<details>
+<summary>052.py - Write a Python program to remove None value from a given list using lambda function.</summary>
+
+- isinstanceを使ってfilterする
+
+</details>
