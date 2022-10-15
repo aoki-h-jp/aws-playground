@@ -337,3 +337,40 @@
 - タプルの中身がintに変換できるかどうかを判定し、変換できるものは全て変換した状態にするという処理を書く
 
 </details>
+
+<details>
+<summary>046.py - Write a Python program to find index position and value of the maximum and minimum values in a given list of numbers using lambda.</summary>
+
+- indexと同時に返したいのでenumerateを使う
+- max, minはkeyを引数に取れる
+
+</details>
+
+<details>
+<summary>047.py - Write a Python program to sort a given mixed list of integers and strings using lambda. Numbers must be sorted before strings.</summary>
+
+- isinstanceを使ってsortedする
+
+</details>
+
+<details>
+<summary>048.py - Write a Python program to sort a given list of strings(numbers) numerically using lambda.</summary>
+
+- int(n)でsortedする
+
+</details>
+
+<details>
+<summary>049.py - Write a Python program to count the occurrences of the items in a given list using lambda.</summary>
+
+- collectionを使えばカウントできるが、今回は使わない
+- dict([tuple])で辞書に登録できる
+
+</details>
+
+<details>
+<summary>050.py - Write a Python program to remove specific words from a given list using lambda.</summary>
+
+- filterを使う
+
+</details>
