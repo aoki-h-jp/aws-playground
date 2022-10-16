@@ -20,7 +20,7 @@
 |       python-heap-queue-algorithm       |       Python heap queue algorithm       |        29        ||
 |              python-array               |              Python Array               |        24        ||
 |               python-enum               |               Python Enum               |        5         | :white_check_mark: |
-|              python-bisect              |              Python Bisect              |        9         ||
+|              python-bisect              |              Python Bisect              |        9         |     :running:      |
 | python-conditional-statements-and-loops | Python conditional statements and loops |        44        ||
 |            python-functions             |            Python functions             |        21        ||
 |              python-lambda              |              Python Lambda              |        52        | :white_check_mark: |
