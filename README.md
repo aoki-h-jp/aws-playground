@@ -1,8 +1,7 @@
 # playground
 
 - This repository is a playground for programming practice and learning new programming languages.
-- The following emojis show status.
-- done :white_check_mark: running :running: suspend :no_pedestrians:
+- The following emojis show status. done :white_check_mark: running :running: suspend :no_pedestrians:
 - Feel free to clone if you want to use it.
 
 ```shell
