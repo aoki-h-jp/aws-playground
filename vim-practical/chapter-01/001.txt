@@ -1,0 +1,38 @@
+// 例
+// 基本的にはカーソルが最初のLにあるものとする
+Line one
+Line two
+Line three
+Line four
+
+// x...
+// 1文字削除する「x」を繰り返し行う
+ one
+Line two
+Line three
+Line four
+
+// x...uuuu
+// 「u」で変更を取り消す
+Line one
+Line two
+Line three
+Line four
+
+// dd...
+// 「dd」で現在の行を削除する
+// 全部消える
+
+// 「>G」で現在の行からファイルの末尾までのインデントを1段階深くする
+// 2行目のLにカーソルがあるものとする
+Line one
+    Line two
+    Line three
+    Line four
+
+// >Gj.j.
+// この場合「.」は>Gを繰り返すということ
+Line one
+    Line two
+        Line three
+            Line four
