@@ -19,3 +19,7 @@ git clone https://github.com/aoki-h-jp/playground.git
 ## :running: javascript-teach-yourself
 - exercises for「独習 Javascript」
 - basic javascript lesson
+
+## :running: vim-practical
+- exercises for「実践Vim」
+- > In more than 120 Vim tips, you’ll quickly learn the editor’s core functionality and tackle your trickiest editing and writing tasks.
