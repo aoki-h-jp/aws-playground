@@ -102,6 +102,13 @@
 
 <details>
 <summary>Chapter-13 非同期処理</summary>
+
+- single_thread.html // JavaScriptのコードがシングルスレッドで実行されることの確認
+- promise.html // Promiseインスタンスの練習
+- async_await.html // async, await記法の練習
+- 13-2.html, 13-2.js, 13-3.html, 13-3.js, 13-4.html, 13-4.js, 13-6.html, 13-6.drawio.svg, 13-7.html, 13-7.js, 13-8.html, 13-8.js, daily.json // exercise
+- README.md, chapter-13-check.html, chapter-13-check.js, fruit.json, fruit-tag.json // 理解度チェック
+
 </details>
 
 <details>
