@@ -114,7 +114,8 @@
 <details>
 <summary>Chapter-14 DOM</summary>
 
-
+- 14-1.html, 14-2.html, 14-3.html, 14-3.js, 14-4.html, 14-5.html, 14-6.html // exercise
+- README.md, chapter-14-check-02.html, chapter-14-check-03.html, chapter-14-check-04.html // 理解度チェック
 
 </details>
 
