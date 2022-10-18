@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise14-1</title>
+</head>
+<body>
+    <h1>見出し1</h1>
+    <p id="idAttr" class="classAttr">これは段落です。<span>スパンに囲まれています。</span></p>
+    <p class="classAttr">これは段落です。</p>
+    <input type="text" name="nameAttr">
+    <input type="password" name="pwdAttr">
+    <script>
+        // [1]
+        let idAttr = document.querySelector("#idAttr");
+        console.log(idAttr);
+        // [2]
+        let classAttr = document.querySelector(".classAttr");
+        console.log(classAttr);
+        // [3]
+        let pAll = document.querySelectorAll("p");
+        console.log(pAll);
+        // [4]
+        let inputText = document.querySelector("input[type='text']");
+        console.log(inputText);
+        // [5]
+        let spanP = document.querySelector("span").closest("p");
+        console.log(spanP);
+        // [6]
+        let h1Pwd = document.querySelector("h1 ~ input[type='password']");
+        console.log(h1Pwd);
+        // [7]
+        let idAttrChild = document.querySelector("#idAttr > *");
+        console.log(idAttrChild);
+        // [8]
+        let inputTextNext = document.querySelector("input[type='text'] + *");
+        console.log(inputTextNext);
+    </script>
+</body>
+</html>

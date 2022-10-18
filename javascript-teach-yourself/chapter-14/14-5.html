@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise14-5</title>
+</head>
+<body>
+    <div id="target">この要素と位置と大きさの取得</div>
+    <style>
+        #target {
+            margin: 100px;
+            width: 200px;
+            border: 10px solid red;
+        }
+    </style>
+    <script>
+        const div = document.querySelector('#target');
+        const domRect = div.getBoundingClientRect();
+        console.log(domRect.y);
+        console.log(domRect.right);
+        console.log(domRect.width);
+        console.log(domRect.height);
+    </script>
+</body>
+</html>
