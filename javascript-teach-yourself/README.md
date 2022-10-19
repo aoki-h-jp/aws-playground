@@ -86,6 +86,7 @@
 <details>
 <summary>Chapter-11 コレクション</summary>
 
+- array.html, array.js // 配列の動作確認
 - 11-1.html, 11-1.js, 11-2.html, 11-2.js, 11-3.html, 11-3.js, 11-4.html, 11-4.js // exercise
 - README.md, chapter-11-check-01.html, chapter-11-check-01.js, chapter-11-check-02.html, chapter-11-check-02.js // 理解度チェック
 
