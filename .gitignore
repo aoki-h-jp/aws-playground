@@ -1,2 +1,4 @@
 .idea
 *.DS_Store*
+typescript-introduction/*/node_modules
+typescript-introduction/*/dist
