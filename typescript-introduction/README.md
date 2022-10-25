@@ -8,3 +8,10 @@
 - 環境構築〜Hello Worldまで
 
 </details>
+
+<details>
+<summary>Chapter-02 基本的な文法・型</summary>
+
+- 環境構築〜Hello Worldまで
+
+</details>
