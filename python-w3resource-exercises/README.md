@@ -27,7 +27,7 @@
 |               python-map                |               Python map                |        17        ||
 |           python-os-services            |           Python OS Services            |        18        ||
 |             python-datetime             |            Python Date Time             |        63        ||
-|              python-class               |              Python Class               |        24        ||
+|              python-class               |              Python Class               |        24        |     :running:      |
 |        python-search-and-sorting        |        Python Search and Sorting        |        39        ||
 |           python-linked-list            |           Python Linked List            |        14        ||
 |        python-binary-search-tree        |        Python Binary Search Tree        |        6         ||
