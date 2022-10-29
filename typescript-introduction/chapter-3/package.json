@@ -1,0 +1,15 @@
+{
+  "name": "chapter-3",
+  "version": "1.0.0",
+  "description": "## memo オブジェクトについて - プロパティ名は動的に指定できる - constで宣言したオブジェクトに別のオブジェクトを再代入することはできないが、中身を書き換えることはできてしまう - スプレッド構文を使うことでdeepcopyができる (単純にlet foo = barのようにイコールで繋ぐだけだとshallowなcopyになる)、ただしスプレッドしたオブジェクトがネストされている場合は奥の要素はshallowなcopyになる点には注意（標準的なやり方で全部deepcopyはできない）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
