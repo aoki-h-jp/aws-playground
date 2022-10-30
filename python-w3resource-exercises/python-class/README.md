@@ -38,3 +38,35 @@
 
 - 受け取った引数を全てそのまま返す関数を作ればいい
 </details>
+
+<details>
+<summary>006.py - Write a Python function student_data () which will print the id of a student (student_id). If the user passes an argument student_name or student_class the function will print the student name and class.</summary>
+
+- student_nameとstudent_classが渡されたら、という処理をkwargsで受け取る
+</details>
+
+<details>
+<summary>007.py - Write a simple Python class named Student and display its type. Also, display the __dict__ attribute keys and the value of the __module__ attribute of the Student class.</summary>
+
+- 何もしないStudentクラスを作り、特殊メソッドの返り値を出力する
+</details>
+
+<details>
+<summary>008.py - Write a Python program to crate two empty classes, Student and Marks. Now create some instances and check whether they are instances of the said classes or not. Also, check whether the said classes are subclasses of the built-in object class or not.</summary>
+
+- 何もしないStudentクラスとMarksクラスを作る
+- isinstance(インスタンス, クラス)でそのクラスのインスタンスかどうかを出力できる
+</details>
+
+<details>
+<summary>009.py - Write a Python class named Student with two attributes student_name, marks. Modify the attribute values of the said class and print the original and modified values of the said attributes.</summary>
+
+- getattrでclassのattributeの値が取得でき、setattrでclassのattributeの値を変更できる
+</details>
+
+<details>
+<summary>010.py - Write a Python class named Student with two attributes student_id, student_name. Add a new attribute student_class and display the entire attribute and their values of the said class. Now remove the student_name attribute and display the entire attribute with values.</summary>
+
+- 新しいattributeを追加する時には直接ピリオド以下にその名前を指定すれば値を指定できる
+- del (attribute)でそのattributeを消せる
+</details>
