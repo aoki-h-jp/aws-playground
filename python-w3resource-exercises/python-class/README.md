@@ -70,3 +70,38 @@
 - 新しいattributeを追加する時には直接ピリオド以下にその名前を指定すれば値を指定できる
 - del (attribute)でそのattributeを消せる
 </details>
+
+<details>
+<summary>011.py - Write a Python class named Student with two attributes student_id, student_name. Add a new attribute student_class. Create a function to display the entire attribute and their values in Student class.</summary>
+
+- student_idとstudent_nameをもつStudentクラスを作り、そのインスタンスにstudent_classを加える
+- Studentクラスの中にdisplay関数を作る
+</details>
+
+<details>
+<summary>012.py - Write a Python class named Student with two instances student1, student2 and assign given values to the said instances attributes. Print all the attributes of student1, student2 instances with their values in the given format.</summary>
+
+- student_idは共通で持っているっぽいので最初から持たせるが、それ以外は後から与えることにする
+- その他は011.pyとほぼ同じ
+</details>
+
+<details>
+<summary>b001.py - Write a Python class to convert an integer to a roman numeral.</summary>
+
+- ローマ数字の対応は1 = I, 5 = V, X = 10, L = 50, C = 100, D = 500, M = 1000
+- 4ならIV、6ならVIというように順番も考慮する (4,9の時に注意)
+- 5000より大きい数値は入らないものとする
+- わざわざクラスにしなくても良さそうだが、指定されているのでそうする
+</details>
+
+<details>
+<summary>b002.py - Write a Python class to convert a roman numeral to an integer.</summary>
+
+- b001.pyの逆をやる
+</details>
+
+<details>
+<summary>b003.py - Write a Python class to find validity of a string of parentheses, '(', ')', '{', '}', '[' and ']. These brackets must be close in the correct order, for example "()" and "()[]{}" are valid but "[)", "({[)]" and "{{{" are invalid.</summary>
+
+- 隣のカッコと形が同じかどうかという視点で判定する（[{}]のようなネストは考えない）
+</details>
