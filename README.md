@@ -24,7 +24,9 @@ git clone https://github.com/aoki-h-jp/playground.git
 - exercises for「実践Vim」
 - > In more than 120 Vim tips, you’ll quickly learn the editor’s core functionality and tackle your trickiest editing and writing tasks.
 
-## :running: typescript-introduction
+## :no_entry: typescript-introduction
 - exercises for 「プロを目指す人のためのTypeScript入門」
 - basic typescript lesson
   
+## :running: java-bronze
+- exercises for 1Z0-818 Java SE Bronze
