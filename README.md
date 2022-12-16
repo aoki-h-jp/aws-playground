@@ -28,5 +28,8 @@ git clone https://github.com/aoki-h-jp/playground.git
 - exercises for 「プロを目指す人のためのTypeScript入門」
 - basic typescript lesson
   
-## :running: java-bronze
-- exercises for 1Z0-818 Java SE Bronze
+## :white_check_mark: java-bronze
+- exercises for 1Z0-818 (Java SE Bronze)
+
+## :running: java-silver
+- exercises for 1Z0-815 (Java SE Silver)
