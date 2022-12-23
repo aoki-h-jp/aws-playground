@@ -33,3 +33,6 @@ git clone https://github.com/aoki-h-jp/playground.git
 
 ## :running: java-silver
 - exercises for 1Z0-815 (Java SE Silver)
+
+## :running: java-gold
+- exercises for 1Z0-816 (Java SE Gold)
