@@ -10,3 +10,9 @@
 - ./chapter-06 クラス定義とオブジェクトの生成・使用
 - ./chapter-07 継承
 - ./chapter-08 ポリモフィズムとパッケージ
+
+## How to execute
+```
+> javac Sample1_1.java
+> java Sample1_1
+```
