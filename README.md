@@ -31,6 +31,6 @@ git clone https://github.com/aoki-h-jp/playground.git
 ## :white_check_mark: java-bronze
 - exercises for 1Z0-818 (Java SE Bronze)
 
-## :running: Solidity
+## :running: olidity
 - introduction to solidity for my project.
 
